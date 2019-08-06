@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import "./form.css";
+import { red } from "ansi-colors";
 
 class MyForm extends Component {
   render() {
     return (
-      <div style={{ border: "1px solid grey", width: 500 }}>
+      <div style={{  width: 500 }}>
         <Form>
           <Form.Group controlId="Adi">
             <Form.Label>Adi</Form.Label>
